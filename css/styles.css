@@ -1,60 +1,62 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 .list {
   list-style: none;
 }
 
-.header-web {
-  font-family: Raleway;
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-size: 18px;
   font-weight: 800;
-  line-height: 24px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
 
 .header-studio {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 24px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  text-align: left;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 
-.header-link {
+.header-list-item {
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #2e2f42;
 }
 
 .header-link:hover,
 .header-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
-.socials-mail {
+.header-navig-mail {
+  font-style: normal;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #434455;
 }
 
-.socials-phone {
+.header-navig-tel {
+  font-style: normal;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #434455;
 }
 
@@ -65,7 +67,7 @@ body {
 .hero-top-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -84,7 +86,7 @@ body {
 .Info {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -93,7 +95,7 @@ body {
 .hero-second-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
@@ -102,27 +104,68 @@ body {
 .section-description {
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
 }
 
+.teams {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  border: 1px solid #000;
+}
+
 .advantages {
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .text {
+  font-family: "Roboto";
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.portfolio-content-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
+
+.portfolio-content {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
   color: #434455;
 }
 
@@ -131,20 +174,20 @@ body {
 }
 
 .footer-web {
-  font-family: Raleway;
-  font-size: 18px;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   color: #4d5ae5;
 }
 
 .footer-studio {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   color: #f4f4fd;
@@ -153,8 +196,8 @@ body {
 .footer-text {
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #e7e9fc;
+  color: #f4f4fd;
 }
