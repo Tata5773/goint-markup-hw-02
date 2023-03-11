@@ -50,6 +50,16 @@ body {
   color: #404bbf;
 }
 
+.header-navig-mail:hover,
+.header-navig-mail:focus {
+  color: #404bbf;
+}
+
+.header-navig-tel:hover,
+.header-navig-tel:focus {
+  color: #404bbf;
+}
+
 .header-address {
   font-style: normal;
 }
