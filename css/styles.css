@@ -201,6 +201,10 @@ body {
   text-decoration: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .portfolio-content-text {
   font-family: "Roboto" sans-serif;
   font-size: 20px;
@@ -219,7 +223,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
-  
+
 }
 
 .footer {
