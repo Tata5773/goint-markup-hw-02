@@ -51,6 +51,10 @@ body {
   font-style: normal;
 }
 
+.header-navig {
+  list-style: none;
+}
+
 .header-navig-mail {
   font-style: normal;
   font-size: 16px;
