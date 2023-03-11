@@ -179,6 +179,10 @@ body {
   color: #434455;
 }
 
+.list {
+  list-style: none;
+}
+
 .filter-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -191,6 +195,10 @@ body {
 
 .section-ul {
   list-style: none;
+}
+
+.section-li {
+  text-decoration: none;
 }
 
 .portfolio-content-text {
@@ -211,6 +219,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
+  
 }
 
 .footer {
