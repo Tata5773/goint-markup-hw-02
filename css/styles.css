@@ -42,7 +42,10 @@ body {
   color: #2e2f42;
 }
 
-.header-list-item:hover,
+.header-list-item:hover {
+  color: #404bbf;
+}
+
 .header-list-item:focus {
   color: #404bbf;
 }
