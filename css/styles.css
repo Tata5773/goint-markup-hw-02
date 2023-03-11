@@ -50,13 +50,13 @@ body {
   color: #404bbf;
 }
 
-.header-navig-mail:hover,
-.header-navig-mail:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
-.header-navig-tel:hover,
-.header-navig-tel:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
 
@@ -68,7 +68,7 @@ body {
   list-style: none;
 }
 
-.header-navig-mail {
+.link {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -76,13 +76,6 @@ body {
   color: #434455;
 }
 
-.header-navig-tel {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 
 .hero {
   background-color: #2e2f42;
