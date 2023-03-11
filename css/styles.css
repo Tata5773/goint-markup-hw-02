@@ -49,13 +49,8 @@ body {
   color: #404bbf;
 }
 
-.link:hover,
-.link:focus {
-  color: #404bbf;
-}
-
-.link:hover,
-.link:focus {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
 }
 
