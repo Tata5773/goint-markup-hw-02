@@ -1,6 +1,14 @@
+:root {
+  --header-list-item: #2e2f42;
+  --header-link: #434455;
+  --hero-top-title: #ffffff
+
+
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--header-link);
 }
 
 .list {
@@ -26,7 +34,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--header-list-item);
 }
 
 .header-list-item {
@@ -35,7 +43,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--header-list-item);
 }
 
 .header-list-item:hover {
@@ -63,7 +71,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--header-link);
 }
 
 
@@ -77,7 +85,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: var(--hero-top-title);
 }
 
 .modal-btn {
@@ -89,7 +97,7 @@ body {
   cursor: pointer;
   border-radius: 4px;
   padding: 16px 32px 16px 32px;
-  color: #FFFFFF;
+  color: var(--hero-top-title);
   background-color: #4D5AE5;
 }
 
@@ -104,7 +112,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
+  color: var(--header-list-item);
 }
 
 .hero-second-title {
@@ -114,7 +122,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #2e2f42;
+  color: var(--header-list-item);
 }
 
 .section-description {
@@ -122,7 +130,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #434455;
+  color: var(--header-link);
 }
 
 .info {
@@ -132,7 +140,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--header-list-item);
 }
 
 .teams {
@@ -143,7 +151,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--header-list-item);
   border: 1px solid #000;
 }
 
@@ -157,7 +165,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #2e2f42;
+  color: var(--header-list-item);
 }
 
 .text {
@@ -166,7 +174,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #434455;
+  color: var(--header-link);
 }
 
 .link {
@@ -187,7 +195,7 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: #404BBF;
- color: #FFFFFF;
+ color: var(--hero-top-title);
 }
 
 .section-ul {
@@ -209,7 +217,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #2e2f42;
+  color: var(--header-list-item);
 }
 
 .portfolio-content {
@@ -219,7 +227,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #434455;
+  color: var(--header-link);
 
 }
 
