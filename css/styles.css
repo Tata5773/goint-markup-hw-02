@@ -179,8 +179,8 @@ body {
   color: #434455;
 }
 
-.list {
-  list-style: none;
+.link {
+  text-decoration: none;
 }
 
 .filter-btn {
