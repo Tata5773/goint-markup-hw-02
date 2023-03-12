@@ -9,7 +9,6 @@ body {
 
 .header-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -22,7 +21,6 @@ body {
 
 .header-studio {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -32,7 +30,6 @@ body {
 }
 
 .header-list-item {
-  font-style: normal;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -63,7 +60,6 @@ body {
 }
 
 .header-link {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -76,7 +72,6 @@ body {
 }
 
 .hero-top-title {
-  font-style: normal;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -92,17 +87,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  height: 56px;
-  width: 169px;
-  left: 636px;
-  top: 428px;
   border-radius: 4px;
   padding: 16px 32px 16px 32px;
-  color: #ffffff;
+  color: #FFFFFF;
+  background-color: #4D5AE5;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404BBF;
 }
 
 .info-list {
-  font-style: normal;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -122,9 +118,7 @@ body {
 }
 
 .section-description {
-  font-style: normal;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
@@ -132,7 +126,6 @@ body {
 }
 
 .info {
-  font-style: normal;
   font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
@@ -144,7 +137,6 @@ body {
 
 .teams {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -160,7 +152,6 @@ body {
 }
 
 .advantages {
-  font-style: normal;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -170,7 +161,6 @@ body {
 }
 
 .text {
-  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -189,8 +179,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color:#4D5AE5;
+  background-color: #E7E9FC ;
   cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: #404BBF;
+ color: #FFFFFF;
 }
 
 .section-ul {
